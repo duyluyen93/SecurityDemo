@@ -22,7 +22,7 @@ public class AuthClientDetailsService implements ClientDetailsService {
         // todo: test authorization: browser/1234
         BaseClientDetails details = new BaseClientDetails();
         details.setClientId(s);
-        details.setClientSecret("$2a$10$fWNTd3H.u7G/aNROVQSifebOkZ2xzU5nUPOCI2Ld42M8E25/ljJqK");    // "1234"
+        details.setClientSecret("$2a$10$fWNTd3H.u7G/aNROVQSifebOkZ2xzU5nUPOCI2Ld42M8E25/ljJqK");    // pass encode "1234"
         details.setAuthorizedGrantTypes(Arrays.asList("refresh_token,password".split(",")));
         details.setScope(Arrays.asList("web".split(",")));
 

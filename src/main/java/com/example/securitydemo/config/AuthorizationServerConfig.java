@@ -16,6 +16,7 @@ import org.springframework.security.oauth2.provider.token.store.InMemoryTokenSto
 @Configuration
 @EnableAuthorizationServer
 public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdapter {
+    // add comment 2
     @Autowired
     private ClientDetailsService authClientDetailsService;
 
