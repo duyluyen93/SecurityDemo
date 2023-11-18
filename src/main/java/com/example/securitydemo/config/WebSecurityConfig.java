@@ -13,6 +13,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 
 @Configuration
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+    // thêm comment 2
     @Autowired
     UserDetailsService userDetailsService;
 //    AuthenticationProvider authenticationProvider;
