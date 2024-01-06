@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SecurityDemoApplication {
 
     public static void main(String[] args) {
-        // comment 1
+        // comment 1 sửa
         SpringApplication.run(SecurityDemoApplication.class, args);
     }
 
